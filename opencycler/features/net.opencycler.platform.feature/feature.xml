@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="net.opencycler.platform.feature"
+      label="OpenCycler Platform"
+      version="1.4.0.qualifier">
+
+   <includes
+         id="net.openchrom.pcr.report.supplier.misc.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.equinox.compendium.sdk"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.equinox.core.sdk"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.chemclipse.ux.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.chemclipse.rcp.app.core.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.chemclipse.rcp.compilation.community.feature"
+         version="0.0.0"/>
+
+   <plugin
+         id="net.openchrom.rcp.compilation.community.ui"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="net.openchrom.feature.branding"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="net.openchrom.pcr.report.supplier.misc"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="net.openchrom.pcr.report.supplier.misc.ui"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.chemclipse.pcr.converter"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.chemclipse.pcr.converter.ui"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.chemclipse.pcr.model"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.chemclipse.converter"
+         download-size="156"
+         install-size="307"
+         version="0.9.0.202009101253"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.chemclipse.converter.ui"
+         download-size="27"
+         install-size="53"
+         version="0.9.0.202009101253"
+         unpack="false"/>
+
+   <plugin
+         id="net.openchrom.pcr.converter.supplier.ixo"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="net.openchrom.pcr.converter.supplier.ixo.ui"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="net.openchrom.pcr.report.supplier.ladr.csv"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="net.openchrom.pcr.report.supplier.ladr.csv.ui"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="net.openchrom.pcr.report.supplier.ladr.excel"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>
