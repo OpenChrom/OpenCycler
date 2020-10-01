@@ -17,15 +17,15 @@
          version="0.0.0"/>
 
    <includes
-         id="org.eclipse.chemclipse.ux.feature"
-         version="0.0.0"/>
-
-   <includes
          id="org.eclipse.chemclipse.rcp.app.core.feature"
          version="0.0.0"/>
 
    <includes
          id="net.opencycler.rcp.compilation.community.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="net.openchrom.pcr.converter.supplier.ixo.feature"
          version="0.0.0"/>
 
    <plugin
@@ -37,20 +37,6 @@
 
    <plugin
          id="net.openchrom.feature.branding"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="net.openchrom.pcr.report.supplier.misc"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="net.openchrom.pcr.report.supplier.misc.ui"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -78,20 +64,6 @@
          unpack="false"/>
 
    <plugin
-         id="org.eclipse.chemclipse.converter"
-         download-size="156"
-         install-size="307"
-         version="0.9.0.202009101253"
-         unpack="false"/>
-
-   <plugin
-         id="org.eclipse.chemclipse.converter.ui"
-         download-size="27"
-         install-size="53"
-         version="0.9.0.202009101253"
-         unpack="false"/>
-
-   <plugin
          id="net.openchrom.pcr.converter.supplier.ixo"
          download-size="0"
          install-size="0"
@@ -106,21 +78,84 @@
          unpack="false"/>
 
    <plugin
-         id="net.openchrom.pcr.report.supplier.ladr.csv"
+         id="javax.xml.stream"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="net.openchrom.pcr.report.supplier.ladr.csv.ui"
+         id="net.openchrom.pcr.report.supplier.misc"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="net.openchrom.pcr.report.supplier.ladr.excel"
+         id="net.openchrom.pcr.report.supplier.misc.ui"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.chemclipse.rcp.compilation.community.ui"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.chemclipse.model"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.chemclipse.rcp.app.ui"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.chemclipse.converter"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.fasterxml.jackson.core.jackson-annotations"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.chemclipse.rcp.app"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.fasterxml.jackson.core.jackson-core"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.fasterxml.jackson.core.jackson-databind"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.chemclipse.swt.ui"
          download-size="0"
          install-size="0"
          version="0.0.0"
