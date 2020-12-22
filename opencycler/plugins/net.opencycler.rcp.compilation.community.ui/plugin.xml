@@ -12,7 +12,7 @@
          </property>
          <property
                name="aboutImage"
-               value="/net.openchrom.rcp.compilation.community.ui/icons/about_250x330.png">
+               value="icons/about_250x330.png">
          </property>
          <property
                name="appName"

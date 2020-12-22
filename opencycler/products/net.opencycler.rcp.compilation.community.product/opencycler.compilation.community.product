@@ -4,7 +4,7 @@
 <product name="OpenCycler Analytics Edition" uid="net.opencycler.rcp.compilation.community.product.id" id="net.opencycler.rcp.compilation.community.ui.product" application="org.eclipse.chemclipse.rcp.app.ui.org.eclipse.chemclipse.rcp.application" version="1.4.0.qualifier" useFeatures="true" includeLaunchers="true">
 
    <aboutInfo>
-      <image path="/net.openchrom.rcp.compilation.community.ui/icons/about_250x330.png"/>
+      <image path="/net.opencycler.rcp.compilation.community.ui/icons/about_250x330.png"/>
       <text>
          OpenCycler Analytics Edition - the open source software for real-time PCR analysis
       </text>
