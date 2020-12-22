@@ -9,11 +9,7 @@
          version="0.0.0"/>
 
    <includes
-         id="org.eclipse.equinox.compendium.sdk"
-         version="0.0.0"/>
-
-   <includes
-         id="org.eclipse.equinox.core.sdk"
+         id="net.openchrom.pcr.converter.supplier.ixo.feature"
          version="0.0.0"/>
 
    <includes
@@ -25,7 +21,15 @@
          version="0.0.0"/>
 
    <includes
-         id="net.openchrom.pcr.converter.supplier.ixo.feature"
+         id="net.opencycler.rcp.app.compilation.core.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="net.opencycler.rcp.compilation.community.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="net.openchrom.platform.feature"
          version="0.0.0"/>
 
    <plugin
@@ -78,13 +82,6 @@
          unpack="false"/>
 
    <plugin
-         id="javax.xml.stream"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="net.openchrom.pcr.report.supplier.misc"
          download-size="0"
          install-size="0"
@@ -127,35 +124,7 @@
          unpack="false"/>
 
    <plugin
-         id="com.fasterxml.jackson.core.jackson-annotations"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="org.eclipse.chemclipse.rcp.app"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="com.fasterxml.jackson.core.jackson-core"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="com.fasterxml.jackson.core.jackson-databind"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.eclipse.chemclipse.swt.ui"
          download-size="0"
          install-size="0"
          version="0.0.0"

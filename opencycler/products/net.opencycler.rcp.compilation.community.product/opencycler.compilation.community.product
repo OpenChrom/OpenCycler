@@ -28,6 +28,7 @@
 -Dosgi.instance.area=@user.home/OpenCycler/1.4.x
 -Dosgi.user.area=@user.home/.opencycler/1.4.x
 -Dorg.eclipse.update.reconcile=false
+-Dapplication.perspective=org.eclipse.chemclipse.ux.extension.xxd.ui.perspective.pcr
       </vmArgs>
       <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts
       </vmArgsMac>
@@ -39,6 +40,7 @@
       location="net.opencycler.rcp.compilation.community.ui" />
    <launcher name="opencycler">
       <linux icon="icons/linux/Icon.xpm"/>
+      <solaris/>
       <win useIco="false">
          <bmp
             winSmallHigh="icons/windows/16x16-32.bmp"
