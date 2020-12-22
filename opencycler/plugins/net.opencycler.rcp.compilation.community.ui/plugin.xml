@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="org.eclipse.chemclipse.rcp.app.ui.org.eclipse.chemclipse.rcp.application"
+            name="OpenCycler Analytics Edition">
+         <property
+               name="aboutText"
+               value="OpenCycler Analytics Edition - the open source software for real-time PCR analysis">
+         </property>
+         <property
+               name="aboutImage"
+               value="/net.openchrom.rcp.compilation.community.ui/icons/about_250x330.png">
+         </property>
+         <property
+               name="appName"
+               value="OpenCycler Analytics Edition">
+         </property>
+         <property
+               name="applicationXMI"
+               value="org.eclipse.chemclipse.rcp.app.ui/Application.e4xmi">
+         </property>
+         <property
+               name="applicationCSS"
+               value="/org.eclipse.chemclipse.rcp.app.ui/css/chemclipse.css">
+         </property>
+         <property
+               name="windowImages"
+               value="icons/logo_16x16.png,icons/logo_32x32.png,icons/logo_48x48.png,icons/logo_64x64.png,icons/logo_128x128.png">
+         </property>
+      </product>
+   </extension>
+   <extension
+         point="org.eclipse.ui.splashHandlers">
+      <splashHandler
+            class="net.opencycler.rcp.compilation.community.ui.splash.EnhancedSplashHandler"
+            id="net.opencycler.rcp.compilation.community.ui.splash.enhancedSplashHandler">
+      </splashHandler>         
+      <splashHandlerProductBinding
+            productId="net.opencycler.rcp.compilation.community.ui.product"
+            splashId="net.opencycler.rcp.compilation.community.ui.splash.enhancedSplashHandler">
+      </splashHandlerProductBinding>
+   </extension>
+   <extension
+         point="org.eclipse.ui.startup">
+      <startup
+            class="net.opencycler.rcp.compilation.community.ui.PluginStartup"></startup>
+   </extension>
+</plugin>
